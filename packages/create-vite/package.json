@@ -1,12 +1,12 @@
 {
-  "name": "create-vite",
+  "name": "create-vite-starter",
   "version": "6.5.0",
   "type": "module",
   "license": "MIT",
-  "author": "Evan You",
+  "author": "Vadim Durresiou",
   "bin": {
-    "create-vite": "index.js",
-    "cva": "index.js"
+    "create-vite-starter": "index.js",
+    "cvas": "index.js"
   },
   "files": [
     "index.js",
@@ -24,14 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitejs/vite.git",
+    "url": "git+https://github.com/radiocab/vite-scaffolding.git",
     "directory": "packages/create-vite"
   },
   "bugs": {
-    "url": "https://github.com/vitejs/vite/issues"
+    "url": "https://github.com/radiocab/vite-scaffolding/issues"
   },
-  "homepage": "https://github.com/vitejs/vite/tree/main/packages/create-vite#readme",
-  "funding": "https://github.com/vitejs/vite?sponsor=1",
+  "homepage": "https://github.com/radiocab/vite-scaffolding/tree/main/packages/create-vite#readme",
   "devDependencies": {
     "@clack/prompts": "^0.11.0",
     "cross-spawn": "^7.0.6",

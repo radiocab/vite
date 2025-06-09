@@ -331,7 +331,7 @@ const renameFiles: Record<string, string | undefined> = {
   _gitignore: '.gitignore',
 }
 
-const defaultTargetDir = 'vite-project'
+const defaultTargetDir = 'vite-scaffolded-project'
 
 async function init() {
   const argTargetDir = argv._[0]
