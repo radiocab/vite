@@ -10,8 +10,6 @@ export default defineConfig({
     exclude: [
       '**/node_modules/**',
       '**/dist/**',
-      './playground/**/*.*',
-      './playground-temp/**/*.*',
     ],
     deps: {
       // we specify 'packages' so Vitest doesn't inline the files
