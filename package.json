@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/radiocab/vite-scaffolding#readme",
   "dependencies": {
-    "@radiocab/create-vite-enriched": "link:C:/Users/v9735/Downloads/opencart/SetupNginx/github/create-vite-enriched"
+    "@radiocab/create-vite-enriched": "file:"
   }
 }
