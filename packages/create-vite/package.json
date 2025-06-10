@@ -1,12 +1,12 @@
 {
-  "name": "create-vite-starter",
-  "version": "6.5.0",
+  "name": "create-vite-enriched",
+  "version": "6.5.1",
   "type": "module",
   "license": "MIT",
   "author": "Vadim Durresiou",
   "bin": {
-    "create-vite-starter": "index.js",
-    "cvas": "index.js"
+    "vite-enriched": "index.js",
+    "cvae": "index.js"
   },
   "files": [
     "index.js",
@@ -33,9 +33,16 @@
   "homepage": "https://github.com/radiocab/vite-scaffolding/tree/main/packages/create-vite#readme",
   "devDependencies": {
     "@clack/prompts": "^0.11.0",
+    "@types/cross-spawn": "^6.0.6",
+    "@types/node": "^22.15.30",
     "cross-spawn": "^7.0.6",
+    "fs": "latest",
+    "rollup-plugin-license": "latest",
+    "rollup": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0",
     "mri": "^1.2.0",
+    "path": "latest",
     "picocolors": "^1.1.1",
-    "tsdown": "^0.12.6"
+    "tsdown": "^0.12.6",
+    "url": "latest"
   }
 }

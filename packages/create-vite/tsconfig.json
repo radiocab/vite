@@ -11,6 +11,8 @@
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "esModuleInterop": true,
-    "noEmit": true
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
