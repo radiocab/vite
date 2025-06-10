@@ -1,7 +1,7 @@
 {
   "name": "@radiocab/create-vite-enriched",
   "version": "1.0.0",
-  "description": "create-vite original from vite enriched with some usefull plugins as eslint and others",
+  "description": "create-vite original script from vite enriched with some usefull plugins as eslint and others",
   "main": "index.js",
   "scripts": {
     "test": "index.js"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/radiocab/vite-scaffolding/issues"
   },
-  "homepage": "https://github.com/radiocab/vite-scaffolding#readme"
+  "homepage": "https://github.com/radiocab/vite-scaffolding#readme",
+  "dependencies": {
+    "@radiocab/create-vite-enriched": "link:C:/Users/v9735/Downloads/opencart/SetupNginx/github/create-vite-enriched"
+  }
 }

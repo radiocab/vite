@@ -6,4 +6,8 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      '@radiocab/create-vite-enriched':
+        specifier: link:C:/Users/v9735/Downloads/opencart/SetupNginx/github/create-vite-enriched
+        version: 'link:'
