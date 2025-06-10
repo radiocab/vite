@@ -6,7 +6,7 @@
   "author": "Vadim Durresiou",  
   "description": "create-vite original script from vite enriched with some usefull plugins as eslint and others",
   "bin": {
-    "vite-enriched": "packages/create-vite/index.js",
+    "create-vite-enriched": "packages/create-vite/index.js",
     "cvae": "packages/create-vite/index.js"
   },
   "main1111": "index.js",
@@ -16,10 +16,10 @@
     "packages/create-vite/dist"
   ],
   "scripts": {
-    "dev": "tsdown --watch",
+    "dev": "cd packages/create-vite/ && tsdown --watch && cd ../..",
     "build": "cd packages/create-vite/ && tsdown && cd ../..",
-    "typecheck": "tsc",
-    "prepublishOnly": "pnpm run build",
+    "typecheck": "cd packages/create-vite/ && tsc && cd ../..",
+    "prepublishOnly": "cd packages/create-vite/ && pnpm run build && cd ../..",
     "test": "index.js"
   },
   "engines": {
