@@ -1,26 +1,60 @@
 {
   "name": "@radiocab/create-vite-enriched",
   "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "Vadim Durresiou",  
   "description": "create-vite original script from vite enriched with some usefull plugins as eslint and others",
-  "main": "index.js",
+  "bin": {
+    "vite-enriched": "packages/create-vite/index.js",
+    "cvae": "packages/create-vite/index.js"
+  },
+  "main1111": "index.js",
+  "files": [
+    "packages/create-vite/index.js",
+    "packages/create-vite/template-*",
+    "packages/create-vite/dist"
+  ],
   "scripts": {
+    "dev": "tsdown --watch",
+    "build": "cd packages/create-vite/ && tsdown && cd ../..",
+    "typecheck": "tsc",
+    "prepublishOnly": "pnpm run build",
     "test": "index.js"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/radiocab/vite-scaffolding.git"
+    "url": "git+https://github.com/radiocab/vite-scaffolding.git",
+    "directory": "packages/create-vite"
   },
   "keywords": [
     "vite",
     "scaffolding"
   ],
-  "author": "Vadim Durresiou",
-  "license": "ISC",
+
+
   "bugs": {
     "url": "https://github.com/radiocab/vite-scaffolding/issues"
   },
   "homepage": "https://github.com/radiocab/vite-scaffolding#readme",
   "dependencies": {
-    "@radiocab/create-vite-enriched": "file:"
+  	"@radiocab/create-vite-enriched": "file:"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.11.0",
+    "@types/cross-spawn": "^6.0.6",
+    "@types/node": "^22.15.30",
+    "cross-spawn": "^7.0.6",
+    "fs": "latest",
+    "rollup-plugin-license": "latest",
+    "rollup": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0",
+    "mri": "^1.2.0",
+    "path": "latest",
+    "picocolors": "^1.1.1",
+    "tsdown": "^0.12.6",
+    "url": "latest"
   }
 }
