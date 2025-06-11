@@ -50,12 +50,23 @@
     "directory": "packages/create-vite"
   },
   "keywords": [
+    "template",
+    "boilerplate",
+    "boilerplate-template",
+    "postcss",
+    "eslint",
+    "prettier",
+    "scaffold",
+    "scaffold-template",
+    "scaffolding",    
     "vite",
+    "vitejs",
+    "vite-template",
+    "vitejs-template",
     "build-tool",
     "frontend",
     "hmr",    
-    "scaffolding",
-    "eslint"
+    "javascript"    
   ],
 
 
